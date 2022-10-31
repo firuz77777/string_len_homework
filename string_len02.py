@@ -8,7 +8,7 @@ def main(a):
     """
     w = len(a)
     if w % 2 == 0:
-        q = "true"
+        q = True
     if w % 2 == 1:
-        q = "false"
+        q = False
     return q
