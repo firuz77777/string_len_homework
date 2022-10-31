@@ -7,6 +7,7 @@ def main(a,b):
     Returns:
         True or False
     """
+    q=0
     if len(a) == len(b):
         q = True
     else :
