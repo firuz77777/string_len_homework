@@ -6,4 +6,9 @@ def main(a):
     Returns:
         True or False
     """
-    return
+    w = len(a)
+    if w % 2 == 0:
+        q = "true"
+    if w % 2 == 1:
+        q = "false"
+    return q
