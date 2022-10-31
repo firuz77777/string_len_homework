@@ -10,6 +10,6 @@ def main(a,b):
     q=0
     if len(a) == len(b):
         q = True
-    else :
+    else : 
         q = False
     return q
