@@ -9,4 +9,5 @@ def main(num1, num2):
     Returns:
         str: answer
     """
-    return
+    s = f'{num1}+{num2}={num1+num2}'
+    return s
