@@ -8,4 +8,17 @@ def main(s1,s2,s3):
     Returns:
         string
     """
-    return
+    if len(s1) % 2 == 1:
+        a = [len(s1)]
+    if len(s2) % 2 == 1:
+        b = [len(s2)]   
+    if len(s3) % 2 == 1:
+        c = [len(s3)]
+    elif len(s1) % 2 == 0:
+        a = []
+    elif len(s2) % 2 == 0:
+        b = []
+    else :
+        c = []
+    return a + b + c
+print(main("ekd","poppo","hwui"))
